@@ -1,8 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { GraduationCap, Calendar } from 'lucide-react';
-import comsatsLogo from '../../assets/education/comsats.png'
-
 
 const Education: React.FC = () => {
   return (
@@ -38,7 +36,7 @@ const Education: React.FC = () => {
             >
               <div className="w-20 h-20 rounded-xl overflow-hidden shadow-md">
                 <img 
-                  src={comsatsLogo} // ✅ fixed path
+                  src="/comsats.png"
                   alt="COMSATS University Islamabad" 
                   className="w-full h-full object-contain bg-white dark:bg-black"
                 />
@@ -62,5 +60,4 @@ const Education: React.FC = () => {
     </section>
   );
 };
-
 export default Education;
