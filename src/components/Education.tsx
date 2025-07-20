@@ -1,7 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { GraduationCap, Calendar } from 'lucide-react';
-import comsatsLogo from '@/assets/education/comsats.png'; // ✅ fixed import
+import comsatsLogo from '../../assets/education/comsats.png'
+
 
 const Education: React.FC = () => {
   return (
